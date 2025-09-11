@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.ucl.ac.uk/'>Mechanical Engineering, UCL</a>. London, United Kingdom
 
 profile:
   align: right
