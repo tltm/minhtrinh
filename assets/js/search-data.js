@@ -472,6 +472,13 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/minh-trinh-3905a5299", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=", "_blank");
+        },
+      },{
         id: 'social-work',
         title: 'Work',
         section: 'Socials',
