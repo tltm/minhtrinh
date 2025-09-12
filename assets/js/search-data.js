@@ -458,11 +458,11 @@ ninja.data = [{
           window.open("mailto:%74%6C%74%6D%69%6E%68.%36%33%30%35@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/tltm", "_blank");
         },
       },{
         id: 'social-linkedin',
@@ -483,7 +483,7 @@ ninja.data = [{
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=", "_blank");
+          window.open("https://scholar.google.com/citations?user=false", "_blank");
         },
       },{
       id: 'light-theme',
