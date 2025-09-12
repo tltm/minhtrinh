@@ -6,7 +6,7 @@ subtitle: <a href='https://www.ucl.ac.uk/'>Undergraduate Student, UCL</a>. Londo
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Unknown.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>"Who am I? Someone that's afraid to let go"</p>
