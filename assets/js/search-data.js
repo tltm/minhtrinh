@@ -472,18 +472,11 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/minh-trinh-3905a5299", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-work',
+        title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("/minhtrinh/feed.xml", "_blank");
-        },
-      },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=false", "_blank");
+          window.open("https://tltm.github.io/minhtrinh/", "_blank");
         },
       },{
       id: 'light-theme',
