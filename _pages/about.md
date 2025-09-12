@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='https://www.ucl.ac.uk/'>Undergraduate Student, UCL</a>. London, United Kingdom
 
