@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Some side quests beside Uni courseworks..
+description: Some side quests beside Uni courseworks.. (this section will be updated soon)
 nav: true
 nav_order: 3
 display_categories: [work, fun]
