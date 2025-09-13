@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "A growing collection of your cool projects.",
+          description: "Some side quests beside Uni courseworks..",
           section: "Navigation",
           handler: () => {
             window.location.href = "/minhtrinh/projects/";
