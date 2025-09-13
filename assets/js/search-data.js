@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "I started my research journey this summer, began with a RL concept (contextual multi-armed bandits). Our first project is submitted to a NeurIPS 2025 Workshop (currently under review).",
+          description: "I began my research journey this summer, exploring reinforcement learning together with concepts from metacognition. Our first project has been submitted to a NeurIPS 2025 Workshop (currently under review).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/minhtrinh/publications/";
