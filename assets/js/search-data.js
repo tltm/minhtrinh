@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "Publications",
-          description: "soon..",
+          description: "I started my research journey this summer, began with a RL concept (contextual multi-armed bandits). Our first project is submitted to a NeurIPS 2025 Workshop (currently under review).",
           section: "Navigation",
           handler: () => {
             window.location.href = "/minhtrinh/publications/";
@@ -30,9 +30,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/minhtrinh/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+        },{id: "nav-resume",
+          title: "Resume",
+          description: "This is my likely-latest version of my CV/Resume.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/minhtrinh/cv/";
@@ -405,8 +405,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/minhtrinh/books/the_godfather/";
-            },},{id: "projects-project-1",
-          title: 'project 1',
+            },},{id: "projects-mars-rover",
+          title: 'Mars Rover',
           description: "with background image",
           section: "Projects",handler: () => {
               window.location.href = "/minhtrinh/projects/1_project/";
