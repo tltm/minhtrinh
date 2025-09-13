@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Some side quests beside Uni courseworks..",
+          description: "Some side quests beside Uni courseworks.. (this section will be updated soon)",
           section: "Navigation",
           handler: () => {
             window.location.href = "/minhtrinh/projects/";
@@ -405,21 +405,6 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/minhtrinh/books/the_godfather/";
-            },},{id: "projects-mars-rover",
-          title: 'Mars Rover',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/minhtrinh/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/minhtrinh/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/minhtrinh/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
