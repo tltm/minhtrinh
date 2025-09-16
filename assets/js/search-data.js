@@ -9,14 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/minhtrinh/";
     },
-  },{id: "nav-blog",
-          title: "Blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/minhtrinh/blog/";
-          },
-        },{id: "nav-publications",
+  },{id: "nav-publications",
           title: "Publications",
           description: "I began my research journey this summer, exploring reinforcement learning together with concepts from metacognition. Our first project has been submitted to a NeurIPS 2025 Workshop (currently under review).",
           section: "Navigation",
