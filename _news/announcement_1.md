@@ -1,6 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition.
+date: 23/09/2025
 inline: true
 related_posts: false
 ---
