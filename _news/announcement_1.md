@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition.
