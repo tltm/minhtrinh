@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/minhtrinh/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-a-paper-got-accepted-to-neurips-2025-workshop-in-interpreting-cognition",
+          title: 'A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition.',
           description: "",
           section: "News",},{
         id: 'social-email',
