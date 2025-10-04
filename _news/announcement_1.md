@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition.
 date: 23/09/2025
 inline: true
