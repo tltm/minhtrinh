@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition.
+A paper got accepted to NeurIPS 2025 Workshop in [Interpreting Cognition](https://coginterp.github.io/neurips2025/).
