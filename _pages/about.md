@@ -9,7 +9,7 @@ profile:
   image: Unknown.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>"__" ".join([{M, Tr] + inh])__"</p>
+    <p>"_" ".join([{M, Tr] + inh])_"</p>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -30,7 +30,7 @@ I’m a third-year Mechanical Engineering undergraduate at University College Lo
 
 Beyond academics, I’m a senior engineer on the [UCL Racing – Mars Rover team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr), contributing to the Autonomous and Control subteam to design a rover for the European Rover Challenge (ERC). Alongside this, I’m working on an RL-based trading project, where early backtests show improved risk-adjusted returns over baseline strategies. These experiences are helping me strengthen my skills in Python, C++, PyTorch, TensorFlow, HuggingFace, ROS2, and Docker, as well as data analysis with Numpy/Pandas and scikit-learn.
 
-Looking ahead, I plan to pursue postgraduate study (MSc/PhD) in AI/ML, specialising in reinforcement learning, to deepen my research expertise while continuing to bridge theory with real-world applications.
+Looking ahead, I plan to pursue postgraduate study (MSc/PhD) in AI/ML, specialising in machine learning and reinforcement learning, to deepen my research expertise while continuing to bridge theory with real-world applications.
 
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
