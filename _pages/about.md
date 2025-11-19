@@ -26,11 +26,11 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a third-year Mechanical Engineering undergraduate at University College London (UCL), with a minor in Intelligent Systems. My main interests are robotics, reinforcement learning, and quantitative trading, where I enjoy developing adaptive novelty AI systems that connect theory to real-world applications.
+I’m a third-year Mechanical Engineering undergraduate at University College London (UCL), with a minor in Intelligent Systems. My main interests are robotics, machine learning and reinforcement learning, where I enjoy developing adaptive novelty AI systems that connect theory to real-world applications.
 
-Beyond academics, I’m a senior engineer on the [UCL Racing – Mars Rover team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr), contributing to the Autonomous and Control subteam to design a rover for the European Rover Challenge (ERC). Alongside this, I’m working on an RL-based trading project, where early backtests show improved risk-adjusted returns over baseline strategies. These experiences are helping me strengthen my skills in Python, C++, PyTorch, TensorFlow, HuggingFace, ROS2, and Docker, as well as data analysis with Numpy/Pandas and scikit-learn.
+My experience is grounded in active application. I currently engineer autonomous control systems for the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) targeting the European Rover Challenge, while conducting part-time AI research. Through these projects, I have honed a robust toolkit including Python, C++, and ROS2 for control, alongside PyTorch and TensorFlow for model development.
 
-Looking ahead, I plan to pursue postgraduate study (MSc/PhD) in AI/ML, specialising in machine learning and reinforcement learning, to deepen my research expertise while continuing to bridge theory with real-world applications.
+Driven by a curiosity for adaptive systems, I intend to pursue an MSc and PhD in AI/ML. My goal is to deepen my expertise in Reinforcement Learning and contribute to the next generation of intelligent, autonomous agents.
 
 
 
