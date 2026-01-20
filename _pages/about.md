@@ -29,7 +29,7 @@ I’m a third-year Mechanical Engineering undergraduate at University College Lo
 
 My experience is grounded in active application. I currently engineer autonomous control systems for the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) targeting the European Rover Challenge, while conducting part-time AI research. Through these projects, I have honed a robust toolkit including Python, C++, and ROS2 for control, alongside PyTorch and TensorFlow for model development.
 
-Driven by a curiosity for adaptive systems, I intend to pursue an MSc and PhD in AI/ML. My goal is to deepen my expertise in Reinforcement Learning and contribute to the next generation of intelligent, autonomous agents.
+Driven by a curiosity for how machines navigate unpredictable environments, I intend to pursue MSc and PhD in AI/ML. My goal is to deepen my expertise in probabilistic decision-making under uncertainty and risk-aware reinforcement learning. By bridging the gap between control theory and modern AI, I aim to contribute to the next generation of robust, autonomous agents capable of reliable operation in complex, high-stakes physical domains.
 
 
 
