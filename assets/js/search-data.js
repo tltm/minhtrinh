@@ -398,8 +398,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/minhtrinh/books/the_godfather/";
-            },},{id: "news-a-paper-got-accepted-to-neurips-2025-workshop-in-interpreting-cognition-submission-version",
-          title: 'A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition. (submission version)...',
+            },},{id: "news-a-paper-got-accepted-to-neurips-2025-workshop-in-interpreting-cognition-view",
+          title: 'A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition. (view)',
           description: "",
           section: "News",},{
         id: 'social-email',
