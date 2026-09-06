@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://tltm.github.io/sitemap.xml
+Sitemap: https://tltm.github.io/minhtrinh/sitemap.xml
