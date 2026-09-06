@@ -41,7 +41,7 @@ Navigating Unmanned Surface Vehicles (USVs) in maritime environments requires co
 
 ---
 
-### Key Highlights & Architecture
+<!-- ### Key Highlights & Architecture
 
 <div class="row row-cols-1 row-cols-md-3 g-3 text-center my-3">
   <div class="col">
@@ -62,4 +62,4 @@ Navigating Unmanned Surface Vehicles (USVs) in maritime environments requires co
       <p class="small text-muted mb-0">Improved path efficiency and robustness over baseline controllers</p>
     </div>
   </div>
-</div>
+</div> -->

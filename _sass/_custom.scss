@@ -1,0 +1,16 @@
+/* Vanta.js 3D Background Canvas */
+#vanta-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none; /* Crucial: clicks and text selection pass through */
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+html[data-theme='dark'] #vanta-bg {
+  opacity: 0.4;
+}
