@@ -1,81 +1,65 @@
-<!-- ---
+---
 layout: page
-title: Mars Rover
-description: with background image
-img: assets/img/12.jpg
+title: "Continuous-Time Recurrent Reinforcement Learning for USV Navigation in Dynamic Maritime Environments" # Update with your project title
+description: "End-to-end continuous control under dynamic environmental uncertainty"
+img: assets/img/USV Dyn.drawio-3.jpg
 importance: 1
-category: work
-related_publications: true
+category: Research # Groups cards on your /projects/ page
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center my-4">
+  <div class="col-12 col-lg-10">
+    <!-- Responsive Video Player -->
+    <div class="card shadow-sm border-0 overflow-hidden">
+      <div class="ratio ratio-16x9">
+        <video controls autoplay loop muted playsinline poster="{{ '/assets/img/USV Dyn.drawio-3.jpg' | relative_url }}">
+          <source src="{{ '/assets/video/all_episodes-2.mp4' | relative_url }}" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %} -->
+<!-- Action Links (Paper, Code, Demo) -->
+<div class="d-flex flex-wrap gap-2 justify-content-center mb-4">
+  <a href="{{ '/assets/pdf/MECH0020_Final_Report_23018740_TRINH_MINH.pdf' | relative_url }}" target="_blank" class="btn btn-sm btn-outline-primary">
+    <i class="fa-solid fa-file-pdf"></i> Read Paper
+  </a>
+  <!-- Placeholder button for code -->
+  <button class="btn btn-sm btn-outline-secondary" disabled title="Repository undergoing maintenance">
+    <i class="fa-brands fa-github"></i> Code (Updating)
+  </button>
+</div>
+
+---
+
+### Abstract
+
+Navigating Unmanned Surface Vehicles (USVs) in maritime environments requires collision avoidance under time-varying currents, moving obstacles, partial observations, and limited on-board computation. Existing Reinforcement Learning (RL) approaches for USV navigation often assume static or weakly dynamic environments, limiting robustness to dynamic obstacle motion. This project studies USV navigation in a dynamic Rankine vortex-flow simulator with both static and dynamic obstacles, using a limited-range LiDAR sensor representation augmented by engineered direction and clearance features. The task is formulated as a Partially Observable Markov Decision Process (POMDP), and a recurrent policy based on Closed-form Continuous-Time (CfC) neural networks is trained with Proximal Policy Optimization (PPO) under a four-stage timestep-scheduled curriculum. The proposed policy uses a multi-branch feature extractor to separate kinematic, perception, and dynamic-awareness inputs before recurrent belief updating. In simulation, CfC+PPO achieves a 6.2\% success rate (SR) improvement over LSTM+PPO in Static evaluation and a 6.4\% SR improvement over GRU+PPO in Dynamic evaluation, while reducing collision rate (CR) and learned-policy control effort. Ablations show that recurrence improves robustness to cumulative hidden drift, while engineered spatial summaries are essential for reliable local collision avoidance. The results provide promising simulation-based evidence for a lightweight hybrid policy for adaptive USV navigation in dynamic maritime environments.
+
+---
+
+### Key Highlights & Architecture
+
+<div class="row row-cols-1 row-cols-md-3 g-3 text-center my-3">
+  <div class="col">
+    <div class="card h-100 p-3 shadow-sm border-0">
+      <h6 class="text-primary fw-bold mb-1">Architecture</h6>
+      <p class="small text-muted mb-0">Recurrent policy network handling partial observability</p>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 p-3 shadow-sm border-0">
+      <h6 class="text-primary fw-bold mb-1">Environment</h6>
+      <p class="small text-muted mb-0">High-fidelity continuous simulator with disturbance modeling</p>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100 p-3 shadow-sm border-0">
+      <h6 class="text-primary fw-bold mb-1">Outcome</h6>
+      <p class="small text-muted mb-0">Improved path efficiency and robustness over baseline controllers</p>
+    </div>
+  </div>
+</div>

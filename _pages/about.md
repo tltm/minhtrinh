@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.ucl.ac.uk/'>Undergraduate Student, UCL</a>. London, United Kingdom
+subtitle: <a href='https://www.imperial.ac.uk'>Postgraduate Student, Imperial</a>. London, United Kingdom
 
 profile:
   align: right
-  image: Unknown.jpg
+  image: main_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 
@@ -25,11 +25,8 @@ announcements:
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
-I’m a third-year Mechanical Engineering undergraduate at University College London (UCL), with a minor in Intelligent Systems. My main interests are robotics, machine learning and reinforcement learning, where I enjoy developing adaptive novelty AI systems that connect theory to real-world applications.
+<!-- I’m a third-year Mechanical Engineering undergraduate at University College London (UCL), with a minor in Intelligent Systems. My main interests are robotics, machine learning and reinforcement learning, where I enjoy developing adaptive novelty AI systems that connect theory to real-world applications. -->
 
-My experience is grounded in active application. I currently engineer autonomous control systems for the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) targeting the European Rover Challenge, while conducting part-time AI research. Through these projects, I have honed a robust toolkit including Python, C++, and ROS2 for control, alongside PyTorch and TensorFlow for model development.
+I am an incoming MSc student in Artificial Intelligence at Imperial College London (starting September 2026), having recently graduated early with a First-Class Honours BEng in Mechanical Engineering from UCL.
 
-Driven by a curiosity for how machines navigate unpredictable environments, I intend to pursue MSc and PhD in AI/ML. My goal is to deepen my expertise in probabilistic decision-making under uncertainty and risk-aware reinforcement learning. By bridging the gap between control theory and modern AI, I aim to contribute to the next generation of robust, autonomous agents capable of reliable operation in complex, high-stakes physical domains.
-
-
-
+My work focuses on the intersection of deep reinforcement learning, continuous control, and real-world robotics. Currently, I engineer autonomous navigation and control stacks for the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) (European Rover Challenge) and conduct research on policy adaptability and sample-efficient exploration in long-horizon tasks.
