@@ -3,5 +3,5 @@ module.exports = {
   css: ["_site/assets/css/*.css"],
   output: "_site/assets/css/",
   skippedContentGlobs: ["_site/assets/**/*.html"],
-  safeList: ["vanta-bg"],
+  // safeList: ["vanta-bg"],
 };
