@@ -29,4 +29,4 @@ announcements:
 
 I am an incoming MSc student in Artificial Intelligence at Imperial College London (starting September 2026), having recently graduated early with a First-Class Honours BEng in Mechanical Engineering from UCL.
 
-My work focuses on the intersection of deep reinforcement learning, continuous control, and real-world robotics. Currently, I engineer autonomous navigation and control stacks for the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) (European Rover Challenge) and conduct research on policy adaptability and sample-efficient exploration in long-horizon tasks.
+My current research investigates policy adaptability and sample-efficient exploration for long-horizon tasks under uncertainty. Previously, I was a part of the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) working on autonomous navigation and vehicle control targeting the European Rover Challenge.
