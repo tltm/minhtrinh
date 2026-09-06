@@ -6,7 +6,7 @@ subtitle: <a href='https://www.imperial.ac.uk'>Postgraduate Student, Imperial</a
 
 profile:
   align: right
-  image: Unknown.jpg
+  image: main_pic.JPG
   image_circular: false # crops the image to make it circular
   more_info:
 

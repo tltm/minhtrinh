@@ -313,6 +313,12 @@
   </script>
 {% endif %}
 
+<!-- Three.js & Vanta.NET via CDN -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.net.min.js"></script>
+
+<!-- Initialize Vanta -->
+<script defer src="{{ '/assets/js/vanta-bg.js' | relative_url | bust_file_cache }}"></script>
 
 {% if site.search_enabled %}
   <!-- Search -->
