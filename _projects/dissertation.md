@@ -2,7 +2,7 @@
 layout: page
 title: "Continuous-Time Recurrent Reinforcement Learning for USV Navigation in Dynamic Maritime Environments" # Update with your project title
 description: "End-to-end continuous control under dynamic environmental uncertainty"
-img: assets/img/usv.png
+img: assets/img/OOD_DENSE_trajectory.pdf
 importance: 1
 category: Research # Groups cards on your /projects/ page
 related_publications: false
@@ -12,7 +12,7 @@ related_publications: false
   <div class="col-12 col-lg-10">
     <!-- Responsive Video Player -->
     <div class="card shadow-sm border-0 overflow-hidden">
-      <div class="ratio ratio-16x9">
+      <div class="ratio ratio-1x1">
         <video controls autoplay loop muted playsinline poster="{{ '/assets/img/usv.png' | relative_url }}">
           <source src="{{ '/assets/video/all_episodes-2.mp4' | relative_url }}" type="video/mp4">
           Your browser does not support the video tag.
@@ -37,7 +37,7 @@ related_publications: false
 
 ### Abstract
 
-Navigating Unmanned Surface Vehicles (USVs) in maritime environments requires collision avoidance under time-varying currents, moving obstacles, partial observations, and limited on-board computation. Existing Reinforcement Learning (RL) approaches for USV navigation often assume static or weakly dynamic environments, limiting robustness to dynamic obstacle motion. This project studies USV navigation in a dynamic Rankine vortex-flow simulator with both static and dynamic obstacles, using a limited-range LiDAR sensor representation augmented by engineered direction and clearance features. The task is formulated as a Partially Observable Markov Decision Process (POMDP), and a recurrent policy based on Closed-form Continuous-Time (CfC) neural networks is trained with Proximal Policy Optimization (PPO) under a four-stage timestep-scheduled curriculum. The proposed policy uses a multi-branch feature extractor to separate kinematic, perception, and dynamic-awareness inputs before recurrent belief updating. In simulation, CfC+PPO achieves a 6.2\% success rate (SR) improvement over LSTM+PPO in Static evaluation and a 6.4\% SR improvement over GRU+PPO in Dynamic evaluation, while reducing collision rate (CR) and learned-policy control effort. Ablations show that recurrence improves robustness to cumulative hidden drift, while engineered spatial summaries are essential for reliable local collision avoidance. The results provide promising simulation-based evidence for a lightweight hybrid policy for adaptive USV navigation in dynamic maritime environments.
+Navigating Unmanned Surface Vehicles (USVs) in maritime environments requires collision avoidance under time-varying currents, moving obstacles, partial observations, and limited on-board computation. Existing Reinforcement Learning (RL) approaches for USV navigation often assume static or weakly dynamic environments, limiting robustness to dynamic obstacle motion. This project studies USV navigation in a dynamic Rankine vortex-flow simulator with both static and dynamic obstacles, using a limited-range LiDAR sensor representation augmented by engineered direction and clearance features. The task is formulated as a Partially Observable Markov Decision Process (POMDP), and a recurrent policy based on Closed-form Continuous-Time (CfC) neural networks is trained with Proximal Policy Optimization (PPO) under a four-stage timestep-scheduled curriculum. The proposed policy uses a multi-branch feature extractor to separate kinematic, perception, and dynamic-awareness inputs before recurrent belief updating. In simulation, CfC+PPO achieves a 6.2% success rate (SR) improvement over LSTM+PPO in Static evaluation and a 6.4% SR improvement over GRU+PPO in Dynamic evaluation, while reducing collision rate (CR) and learned-policy control effort. Ablations show that recurrence improves robustness to cumulative hidden drift, while engineered spatial summaries are essential for reliable local collision avoidance. The results provide promising simulation-based evidence for a lightweight hybrid policy for adaptive USV navigation in dynamic maritime environments.
 
 ---
 
