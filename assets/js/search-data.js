@@ -392,7 +392,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-continuous-time-recurrent-reinforcement-learning-for-usv-navigation-in-dynamic-maritime-environments",
           title: 'Continuous-Time Recurrent Reinforcement Learning for USV Navigation in Dynamic Maritime Environments',
-          description: "End-to-end continuous control under dynamic environmental uncertainty",
+          description: "Minh Trinh, Yuanchang Liu",
           section: "Projects",handler: () => {
               window.location.href = "/minhtrinh/projects/dissertation/";
             },},{
