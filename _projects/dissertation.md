@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Continuous-Time Recurrent Reinforcement Learning for USV Navigation in Dynamic Maritime Environments" # Update with your project title
-description: "End-to-end continuous control under dynamic environmental uncertainty"
+description: "Minh Trinh, Yuanchang Liu"
 # img: assets/img/OOD_DENSE_trajectory.pdf
 importance: 1
 category: Research # Groups cards on your /projects/ page
@@ -15,7 +15,6 @@ related_publications: false
       <div style="aspect-ratio: 1 / 1; width: 100%;">
         <video style="width: 100%; height: 100%; object-fit: cover; display: block;" controls autoplay loop muted playsinline poster="{{ '/assets/img/usv.png' | relative_url }}">
           <source src="{{ '/assets/video/all_episodes-2.mp4' | relative_url }}" type="video/mp4">
-          Your browser does not support the video tag.
         </video>
       </div>
     </div>
