@@ -12,8 +12,8 @@ related_publications: false
   <div class="col-12 col-lg-10">
     <!-- Responsive Video Player -->
     <div class="card shadow-sm border-0 overflow-hidden">
-      <div class="ratio ratio-1x1">
-        <video controls autoplay loop muted playsinline poster="{{ '/assets/img/usv.png' | relative_url }}">
+      <div style="aspect-ratio: 1 / 1; width: 100%;">
+        <video style="width: 100%; height: 100%; object-fit: cover; display: block;" controls autoplay loop muted playsinline poster="{{ '/assets/img/usv.png' | relative_url }}">
           <source src="{{ '/assets/video/all_episodes-2.mp4' | relative_url }}" type="video/mp4">
           Your browser does not support the video tag.
         </video>
