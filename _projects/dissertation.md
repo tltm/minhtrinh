@@ -2,7 +2,7 @@
 layout: page
 title: "Continuous-Time Recurrent Reinforcement Learning for USV Navigation in Dynamic Maritime Environments" # Update with your project title
 description: "End-to-end continuous control under dynamic environmental uncertainty"
-img: assets/img/OOD_DENSE_trajectory.pdf
+# img: assets/img/OOD_DENSE_trajectory.pdf
 importance: 1
 category: Research # Groups cards on your /projects/ page
 related_publications: false
