@@ -390,7 +390,12 @@ ninja.data = [{
             },},{id: "news-a-paper-got-accepted-to-neurips-2025-workshop-in-interpreting-cognition-view",
           title: 'A paper got accepted to NeurIPS 2025 Workshop in Interpreting Cognition. (view)',
           description: "",
-          section: "News",},{
+          section: "News",},{id: "projects-continuous-time-recurrent-reinforcement-learning-for-usv-navigation-in-dynamic-maritime-environments",
+          title: 'Continuous-Time Recurrent Reinforcement Learning for USV Navigation in Dynamic Maritime Environments',
+          description: "End-to-end continuous control under dynamic environmental uncertainty",
+          section: "Projects",handler: () => {
+              window.location.href = "/minhtrinh/projects/dissertation/";
+            },},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
