@@ -2,7 +2,7 @@
 layout: page
 title: "Continuous-Time Recurrent Reinforcement Learning for USV Navigation in Dynamic Maritime Environments" # Update with your project title
 description: "End-to-end continuous control under dynamic environmental uncertainty"
-img: assets/img/USV Dyn.drawio-3.png
+img: assets/img/usv.png
 importance: 1
 category: Research # Groups cards on your /projects/ page
 related_publications: false
@@ -13,7 +13,7 @@ related_publications: false
     <!-- Responsive Video Player -->
     <div class="card shadow-sm border-0 overflow-hidden">
       <div class="ratio ratio-16x9">
-        <video controls autoplay loop muted playsinline poster="{{ '/assets/img/USV Dyn.drawio-3.jpg' | relative_url }}">
+        <video controls autoplay loop muted playsinline poster="{{ '/assets/img/usv.png' | relative_url }}">
           <source src="{{ '/assets/video/all_episodes-2.mp4' | relative_url }}" type="video/mp4">
           Your browser does not support the video tag.
         </video>
