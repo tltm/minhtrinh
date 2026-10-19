@@ -27,6 +27,6 @@ announcements:
 
 <!-- I’m a third-year Mechanical Engineering undergraduate at University College London (UCL), with a minor in Intelligent Systems. My main interests are robotics, machine learning and reinforcement learning, where I enjoy developing adaptive novelty AI systems that connect theory to real-world applications. -->
 
-I am an incoming MSc student in Artificial Intelligence at Imperial College London (starting September 2026), having recently graduated early with a First-Class Honours BEng in Mechanical Engineering from UCL.
+I am currently an MSc student in Artificial Intelligence at Imperial College London, having recently graduated with a First-Class Honours BEng in Mechanical Engineering from UCL.
 
-My current research investigates policy adaptability and sample-efficient exploration for long-horizon tasks under uncertainty. Previously, I was a part of the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) working on autonomous navigation and vehicle control targeting the European Rover Challenge.
+My current research focuses on meta-learning in reinforcement learning, particularly learning RL algorithms that generalise across different types of tasks. Previously, I was part of the [UCL Mars Rover Team](https://www.ucl.ac.uk/engineering/mechanical-engineering/study/beyond-lecture-theatre-student-life-ucl-mechanical-engineering/ucl-racing-uclr) working on autonomous navigation and vehicle control targeting the European Rover Challenge.
